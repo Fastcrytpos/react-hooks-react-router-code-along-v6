@@ -1,0 +1,18 @@
+.nav-link{
+    display: inline-block;
+    box-sizing:border-box;
+    width: 60px;
+    padding:5px;
+    margin: 0 6px 6px;
+    background-color: rgb(5, 104, 104);
+    text-decoration:none;
+    text-align:center;
+    font-size: min(10vw,15px);
+    color:white;
+
+}
+
+.nav-link:hover{
+    background-color: coral;
+    transition: 0.25s;
+}

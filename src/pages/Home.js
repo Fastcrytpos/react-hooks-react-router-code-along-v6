@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import UserCard from "../components/UserCard";
+import Navbar from "./Navbar";
 
 function Home() {
   const [users, setUsers] = useState([])
@@ -18,7 +19,7 @@ function Home() {
   return (
     <>
       <header>
-        {/* place NavBar here */}
+        <Navbar/>
       </header>
       <main>
         <h1>Home!</h1>
